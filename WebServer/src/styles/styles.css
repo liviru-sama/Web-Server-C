@@ -1,0 +1,21 @@
+/* Custom styles on top of Bootstrap */
+
+.header-section {
+    padding: 100px 0;
+    background: url('header-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .navbar {
+    background-color: rgba(101, 206, 115, 0.8);
+  }
+  
+  /* Ensures that the navbar text is not transparent */
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.7);
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,0.9);
+  }
